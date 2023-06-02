@@ -48,7 +48,7 @@ if (isset($_POST['submit'])) {
 // }
 
 // Hoe je een single row selecteert met placeholders
-// $query = "SELECT * FROM producten WHERE product_code = :product_code";
+// $query = "SELECT * FROM producten WHERE product_code = ?";
 // $stmt = $pdo->prepare($query);
 // $productCode = 1;
 // $stmt->bindParam(':product_code', $productCode);
